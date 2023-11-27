@@ -7417,7 +7417,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.058766, y: 2.47, z: -10}
+  m_LocalPosition: {x: -8.3946, y: -4.21, z: -10}
   m_LocalScale: {x: 1.0008141, y: 0.9833399, z: 0.96464}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7578,7 +7578,7 @@ Animator:
   m_GameObject: {fileID: 552449217}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4312ccb3bec31ee429074b88253fd68b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 682c0c38aec4c0b49aea1353e4ed51bb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7630,7 +7630,7 @@ SpriteRenderer:
   m_SortingLayerID: -398098355
   m_SortingLayer: 4
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 72de0c64f2c6a498096698322c976a67, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cbb20e47a62b21b4a89f050b1daea8a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7650,8 +7650,8 @@ Transform:
   m_GameObject: {fileID: 552449217}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.058766, y: 2.47, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: -8.3946, y: -4.21, z: 0}
+  m_LocalScale: {x: 8.657, y: 8.657, z: 0.8657}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 145515470}
@@ -7690,18 +7690,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0146020055, y: 0.0036504827}
+  m_Offset: {x: -0.01665777, y: 0.014956724}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.33, y: 0.32}
+    oldSize: {x: 0.5, y: 0.37}
     newSize: {x: 0.33, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18762985, y: 0.119221754}
+  m_Size: {x: 0.22052076, y: 0.21995005}
   m_EdgeRadius: 0
 --- !u!50 &552449226
 Rigidbody2D:
@@ -7762,9 +7762,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016427303, y: -0.088525}
+  m_Offset: {x: -0.015399481, y: -0.06488474}
   serializedVersion: 2
-  m_Radius: 0.072824515
+  m_Radius: 0.11393807
 --- !u!114 &552449229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7780,6 +7780,7 @@ MonoBehaviour:
   controller: {fileID: 552449230}
   speed: 50
   horizontalMovement: 0
+  animator: {fileID: 552449218}
 --- !u!114 &552449230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7801,10 +7802,22 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 1115614800}
   m_CeilingCheck: {fileID: 145515470}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 552449225}
   OnLandEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 552449229}
+        m_TargetAssemblyTypeName: playerController, Assembly-CSharp
+        m_MethodName: Onlanding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -8041,7 +8054,7 @@ Transform:
   m_GameObject: {fileID: 739323648}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.058766, y: 2.47, z: -10}
+  m_LocalPosition: {x: -8.3946, y: -4.21, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -10,14 +10,18 @@ public class playerController : MonoBehaviour
     public float horizontalMovement = 0f;
     bool jump = false;
     bool crouch = false;
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
     {
         horizontalMovement = Input.GetAxisRaw("Horizontal") * speed;
-        if (Input.GetButtonDown ("Jump"))
+        animator.SetFloat("speed-player", Mathf.Abs(horizontalMovement));
+
+        if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            animator.SetBool("isJumping", true);
         }
         if (Input.GetButtonDown("Crouch"))
         {
@@ -27,6 +31,11 @@ public class playerController : MonoBehaviour
         {
             crouch = false;
         }
+    }
+
+    public void Onlanding ()
+    {
+        animator.SetBool("isJumping", false);
     }
 
     void FixedUpdate()

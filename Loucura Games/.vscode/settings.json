@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Loucura Games.sln"
+    "dotnet.defaultSolution": "Loucura Games.sln",
+    "git.ignoreLimitWarning": true
 }
