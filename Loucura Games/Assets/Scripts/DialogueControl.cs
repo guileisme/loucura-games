@@ -16,6 +16,8 @@ public class DialogueControl : MonoBehaviour
     private string[] sentences;
     private int index;
 
+    private InteragircomBotao interagircombotao;
+
     void Start()
     {
         dialogueObj.SetActive(false);

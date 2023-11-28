@@ -11,7 +11,7 @@ public class InteragircomBotao : MonoBehaviour
     [SerializeField]
     private UnityEvent _botaoApertado;
 
-    private bool _podeExecutar;
+    public bool _podeExecutar;
 
 
     // Update is called once per frame
@@ -34,6 +34,6 @@ public class InteragircomBotao : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         _podeExecutar = false;
-
+        
     }
 }
