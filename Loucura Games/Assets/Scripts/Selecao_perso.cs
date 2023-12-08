@@ -38,12 +38,14 @@ public class Selecao_perso : MonoBehaviour
             axoloteImage.color = cor;
             cachorroImage.color = Color.white;
             cachorroanim.SetBool("Press", true);
+            axoloteanim.SetBool("Press", false);
         }
         else if (personagem == 2)
         {
             cachorroImage.color = cor;
             axoloteImage.color = Color.white;
             cachorroanim.SetBool("Press", false);
+            axoloteanim.SetBool("Press", true);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
