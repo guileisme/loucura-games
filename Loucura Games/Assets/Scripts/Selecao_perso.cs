@@ -9,13 +9,13 @@ public class Selecao_perso : MonoBehaviour
 {
     public Animator axoloteanim, cachorroanim;
     public Image axoloteImage, cachorroImage;
-    private int personagem;
+    public int CharacterIndex;
     private AudioSource som;
     private Color cor;
     // Start is called before the first frame update
     void Start()
     {
-        personagem = 1;
+        CharacterIndex = 1;
         som = GetComponent<AudioSource>();
         cor = cachorroImage.color;
     }
@@ -25,22 +25,22 @@ public class Selecao_perso : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            personagem = 1;
+            CharacterIndex = 1;
             som.Play();
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            personagem = 2;
+            CharacterIndex = 2;
             som.Play();
         }
-        if (personagem == 1)
+        if  (CharacterIndex == 1)
         {
             axoloteImage.color = cor;
             cachorroImage.color = Color.white;
             cachorroanim.SetBool("Press", true);
             axoloteanim.SetBool("Press", false);
         }
-        else if (personagem == 2)
+        else if (CharacterIndex == 2)
         {
             cachorroImage.color = cor;
             axoloteImage.color = Color.white;
@@ -48,7 +48,8 @@ public class Selecao_perso : MonoBehaviour
             axoloteanim.SetBool("Press", true);
         }
         if (Input.GetKeyDown(KeyCode.Space))
-        {
+        {   
+            FindObjectOfType<GameManager>().CharacterIndex = CharacterIndex;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }        
     }
