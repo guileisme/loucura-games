@@ -16,7 +16,7 @@ public class DialogueControl : MonoBehaviour
     private string[] sentences;
     private int index;
 
-    private InteragircomBotao interagircombotao;
+
 
     void Start()
     {
@@ -27,27 +27,19 @@ public class DialogueControl : MonoBehaviour
         dialogueObj.SetActive(true);
         profile.sprite = p;
         sentences = txt;
+        speechText.text = txt[0];
         actorNameText.text = actorName;
-        StartCoroutine(TypeSentence());
-        
+        index = 0;
     }
 
-    IEnumerator TypeSentence()
-    {
-        foreach (char letter in sentences[index].ToCharArray())
-        {
-            speechText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-
-        }
-    }
     void Update()
     {
         if (Input.GetButtonDown("PularDialogo"))
         {
             NextSentence();
-        }
+        }       
     }
+
     public void NextSentence()
     {
         if(speechText.text == sentences[index])
@@ -56,15 +48,17 @@ public class DialogueControl : MonoBehaviour
             if (index < sentences.Length - 1)
             {
                 index++;
-                speechText.text = "";
-                StartCoroutine(TypeSentence());
+                speechText.text = sentences[index];
             }
             else //lido quando acaba
             {
-                speechText.text = "";
                 index = 0;
-                dialogueObj.SetActive(false);
+                End();
             }
         }
+    }
+    public void End()
+    {
+        dialogueObj.SetActive(false);
     }
 }
