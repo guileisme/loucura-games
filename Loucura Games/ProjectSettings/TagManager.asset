@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - deathTag
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,9 @@ TagManager:
     locked: 0
   - name: interativos
     uniqueID: 132274871
+    locked: 0
+  - name: deathObjects
+    uniqueID: 3185911971
     locked: 0
   - name: player
     uniqueID: 3896868941
