@@ -6,6 +6,7 @@ using UnityEngine;
 public class deathCollider : MonoBehaviour
 {
     Vector2 spawnPoint;
+    public gameOver gameOverScreen;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class deathCollider : MonoBehaviour
         if (collision.CompareTag("deathTag"))
         {
             Die();
+            gameOverScreen.gameObject.SetActive(true);
         }
     }
 
@@ -28,5 +30,10 @@ public class deathCollider : MonoBehaviour
     private void Die()
     {
         Respawn();
+    }
+
+    public void gameOver()
+    {
+        gameOverScreen.Setup();
     }
 }
