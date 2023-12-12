@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - deathTag
+  - swordtag
+  - BonecoTag
+  - swordtag2
+  - swordtag3
   layers:
   - Default
   - TransparentFX
