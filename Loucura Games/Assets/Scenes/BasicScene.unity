@@ -124,7 +124,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of fc6fd25 (maico maias)
 --- !u!1 &145436998
 GameObject:
   m_ObjectHideFlags: 0
@@ -8678,6 +8681,7 @@ Transform:
   m_Father: {fileID: 552449220}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1123070284
 GameObject:
   m_ObjectHideFlags: 0
@@ -8767,6 +8771,8 @@ MonoBehaviour:
   virtualCamera: {fileID: 1123070286}
   player1: {fileID: 0}
   player2: {fileID: 0}
+=======
+>>>>>>> parent of fc6fd25 (maico maias)
 =======
 >>>>>>> parent of fc6fd25 (maico maias)
 --- !u!1001 &1161834066
@@ -9444,6 +9450,7 @@ Transform:
   m_Father: {fileID: 866163621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1862455834
 GameObject:
   m_ObjectHideFlags: 3
@@ -9532,6 +9539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of fc6fd25 (maico maias)
 =======
 >>>>>>> parent of fc6fd25 (maico maias)
 --- !u!1 &1973609046
@@ -10038,6 +10047,9 @@ SceneRoots:
   - {fileID: 621230569}
   - {fileID: 716993181}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1328725346}
+=======
+>>>>>>> parent of fc6fd25 (maico maias)
 =======
 >>>>>>> parent of fc6fd25 (maico maias)
