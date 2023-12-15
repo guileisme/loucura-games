@@ -4,12 +4,13 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 public class Dialogue : MonoBehaviour
-{   
+{
     public Sprite profile;
     public string[] speechTxt;
     public string actorName;
     private bool left;
-    
+    private bool onRadious;
+
 
     public LayerMask playerLayer;
 
@@ -17,11 +18,13 @@ public class Dialogue : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-       left = true;
+        left = true;
+        onRadious = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         left = false;
+        onRadious = true;
     }
 
     private void Start()
@@ -29,17 +32,24 @@ public class Dialogue : MonoBehaviour
         dc = FindObjectOfType<DialogueControl>();
     }
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Interaction") && onRadious)
+        {
+            Interact();
+        }
+    }
     void FixedUpdate()
     {
         if (left)
-        {   
+        {
             dc.End();
             left = false;
         }
     }
-    
+
     public void Interact()
-    {   
-        dc.Speech(profile,speechTxt,actorName);
+    {
+        dc.Speech(profile, speechTxt, actorName);
     }
 }
