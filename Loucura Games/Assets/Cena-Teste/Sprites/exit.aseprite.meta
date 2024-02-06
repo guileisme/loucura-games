@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8bfde72430b98e4ea724a273f0f2116
+guid: 4bed1b8ac5259434fb40d7f22d8c9821
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -119,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: quit-idle
+  - name: exit
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.50256675, y: -0.040000003}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 223
-      height: 108
-    spriteID: f8914cafeeac8b34798756702ea01a37
+      width: 974
+      height: 150
+    spriteID: 1c0b0f5b8621e184a8d36d5317243f5a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 844939358
-    name: quit-idle
+    guid: -306468674
+    name: exit
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: quit-idle
+    - name: exit
       frameIndex: 0
       cellRect:
         x: 0
-        y: 0
-        width: 223
-        height: 108
-      spriteId: f8914cafeeac8b34798756702ea01a37
+        y: 6
+        width: 974
+        height: 150
+      spriteId: 1c0b0f5b8621e184a8d36d5317243f5a
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 223, y: 108}
+  canvasSize: {x: 979, y: 160}

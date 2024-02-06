@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa1a6c7e5026dc147a0cd47af78f9ead
+guid: b8bfde72430b98e4ea724a273f0f2116
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -119,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: restart
+  - name: quit-idle
     originalName: 
-    pivot: {x: 0.5047411, y: -0.07534246}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1371
-      height: 146
-    spriteID: e941d90dea5a59648bcbf9b53a57badd
+      width: 223
+      height: 108
+    spriteID: f8914cafeeac8b34798756702ea01a37
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1545268611
-    name: restart
+    guid: 844939358
+    name: quit-idle
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: restart
+    - name: quit-idle
       frameIndex: 0
       cellRect:
-        x: 3
-        y: 11
-        width: 1371
-        height: 146
-      spriteId: e941d90dea5a59648bcbf9b53a57badd
+        x: 0
+        y: 0
+        width: 223
+        height: 108
+      spriteId: f8914cafeeac8b34798756702ea01a37
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1390, y: 169}
+  canvasSize: {x: 223, y: 108}

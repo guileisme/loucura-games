@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fcff6a6b3193edf4d8310476d894e6d9
+guid: 6419997cf2cb73545aab73d81a8f6da4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -119,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: gameover
+  - name: title
     originalName: 
-    pivot: {x: 0.50000006, y: -0.0472103}
+    pivot: {x: 0.49271846, y: -0.04950495}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1872
-      height: 233
-    spriteID: c78f8fecfe984f94798e0e0efb24d4ca
+      width: 206
+      height: 101
+    spriteID: 12a7d2ee343ebc940ac24d45fe9b757b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 361593478
-    name: gameover
+    guid: 416908896
+    name: title
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: gameover
+    - name: title
       frameIndex: 0
       cellRect:
-        x: 24
-        y: 11
-        width: 1872
-        height: 233
-      spriteId: c78f8fecfe984f94798e0e0efb24d4ca
+        x: 10
+        y: 5
+        width: 206
+        height: 101
+      spriteId: 12a7d2ee343ebc940ac24d45fe9b757b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1920, y: 268}
+  canvasSize: {x: 223, y: 108}
