@@ -1,0 +1,2767 @@
+fileFormatVersion: 2
+guid: 79e9400e5b4dc1f4aae31654581cd63a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76329bdb69e963640800efe3a4eef41d
+      internalID: -47823745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d97684fb0d2741abab1147479dda0
+      internalID: 474738918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080743093b02df8419ed00077739639f
+      internalID: -1790069319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b3b2b648bb82f408ee0722a0f9d32e
+      internalID: 921866559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14d519f2e63f744f8feb9c9aae335c9
+      internalID: -1870425255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad48e8202abe5a34f892595270ed1c95
+      internalID: -1674024204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf963fb511168c41bad0aabd167ffdc
+      internalID: -249533930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933f972bde264b74ab1a9ab2b6e6ebdd
+      internalID: 3686209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fb58931a5ec7447b428e08deba5f24
+      internalID: 1365533022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddabc0d785242f4786d41dd165c48a8
+      internalID: -37164253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be5eb00c9a4d2542a37deba790103b1
+      internalID: -89127048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21003917d65a1c444ad6d200f067c2d9
+      internalID: -478303364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44477af3fcd7d4488b2e78325729a58
+      internalID: 312162919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 232
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8649f1f29d2cacc4a951e06449069a1c
+      internalID: 258950287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8c0074ba79f644ba051a7ba49c2673
+      internalID: -1384134730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 220
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dea6eb77e7e0b4bbe756907d472462
+      internalID: -503015163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 220
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f4c72f531ae19428018e7faa484c31
+      internalID: -148535379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 220
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6357f83fa860d6f489e728df26fce78e
+      internalID: 1542483566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 220
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bac4336c03b23d4db78fdd9ddc045cd
+      internalID: -798888810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 220
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc7336f42c78d4428b54261b370b932
+      internalID: 77709294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d9092e29265074eab0c12e1d96c010
+      internalID: -73503320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5400e528eebb9c249b1eaded74f7efd6
+      internalID: -983085035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9873c41c1b36cce44acc74bb00049961
+      internalID: 1390741264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809d79e69cbe3fc4a9ebc70903a7b733
+      internalID: -1115546501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89ababefe1285a4fb30fa346d41de0b
+      internalID: -1765738511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_25
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eeee9dab08dd54eb7f224e46936d85
+      internalID: 948377107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dcb8eeab35152408c63e054e77f1d4
+      internalID: 2107415989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_27
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630cbe60e0f22a6468a632767b3e7ba8
+      internalID: 1261066057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_28
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a0e128c49cb8e42aba8957052ed065
+      internalID: -202560150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48d2cb92e45d1d46b7264c8ad6bfd74
+      internalID: -1650676667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7785931f5e1174db54abd05044a97c
+      internalID: -1973298883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7efab7932dc978419642a9b56f6cbe4
+      internalID: -1945949387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182afc92c59da0e4e9ac1dece5a02fe8
+      internalID: -1422006023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8920a041294ad5b4e8ed058f7a9a1db0
+      internalID: -777858277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da83faee16a7ff142998a7f59b734722
+      internalID: 1479467115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 184
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492a8598cb2364a4e861b61dfb75a4f4
+      internalID: 222768609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 184
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ad7fa42736e2439a4487a7c41b03a
+      internalID: 1819908810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 184
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b179b4a584a8bc149b3cf592861ca389
+      internalID: -209750014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c011af95de2a14fa7b583b78dc4009
+      internalID: -2068976146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_39
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a18f99d8caced84dbc8f0fd08dd8a1b
+      internalID: 45813350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 160
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c3fc630eae1bd4caea23469038f885
+      internalID: -1203535218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_41
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 160
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d1f0aaa80619744b1e631d6bd1a5b2
+      internalID: 909956819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f6429acff62c441831cf9c7e995910
+      internalID: 1649902864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_43
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d65def21a694f44a44d8a63eb531b1
+      internalID: -561649504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15ef936095e2b140b3c3279bb692592
+      internalID: 798994576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f651a957e94c14f8ad1f2c33f228dc
+      internalID: 349462878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19567c0b8eee9104394b81458a860907
+      internalID: -588701550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_47
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 148
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb70acc6f5b977e478d576c690938709
+      internalID: -31776270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fe0c19c6f294b43ae921c051e34388
+      internalID: 670002051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_49
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f490f82ef0e6447b304925caa78b63
+      internalID: 741118553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfce6314fc7ce749bda042a0d68e19d
+      internalID: 334036315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6227bc2b68a5489e178d1900aae2c
+      internalID: 1071198254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5c49c4d1a696e4896e8d3089a80998
+      internalID: -1109818702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea348f526fe154389c13d77cb500d8
+      internalID: -637197045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87daabc00d59d6046991782b6e2ef4ca
+      internalID: -1295192768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_55
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51197aedde30d8d4dbc6a587350e98c2
+      internalID: -1009952786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_56
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcd47c10699d3d40a1d265311d8847b
+      internalID: 815795681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_57
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cd1b634dfe89043865fe571a014154
+      internalID: 1171643187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_58
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51968b9ea808a264bb2af8b949bae798
+      internalID: 216520832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c5931443a15424a824289dc8d297b3
+      internalID: 1933192504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee34fa375e534d45b1d2f651c14502f
+      internalID: 1015009165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_61
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08987109044632244bf848af5416d193
+      internalID: 290581409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878b31fcc138aab4288af2248c8274e6
+      internalID: -1673117194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_63
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7a3077890276c4ea9f1c88541d5fc9
+      internalID: 2131127268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa35c07673e0d5545b46e7b341b03031
+      internalID: 1660591680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_65
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6e6d5a393d16c49bee139363da6789
+      internalID: -1943408555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_66
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f5a8f0d507f604ebea7aee68581f85
+      internalID: 1316460966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_67
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96ba001905d51e4c86def04a67e6465
+      internalID: 1381326252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_68
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeab80e052f951a49a14af6cad44e7e7
+      internalID: 1305443452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4554b6db5ab773b4281bacea56f94a4d
+      internalID: 1460613702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_70
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9d3dd4f1483de4a998672de66fced7
+      internalID: -764668940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_71
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f3c2abacf82bd419a00c93bb453c50
+      internalID: 2085970115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_72
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e42fca12999104ba97ac58c6f350db
+      internalID: 1915044045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2946ea73c6b662d4da44ff4fe15d5d64
+      internalID: 1639234329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_74
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 112
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a0e1047ab77ce4aadbe82b7f92dfdb
+      internalID: 1001265318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_75
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82698834f8ed04b46bbdf1fa121a1ee0
+      internalID: -2084143448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_76
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba73dfaa51db54c4b90f61bae4065fa3
+      internalID: -1220671333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_77
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c7a8a23cfd56c4eb85eb9aab183449
+      internalID: 1014323918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_78
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150961ab152ce684eb033463dd324f9f
+      internalID: -1650212185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_79
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ee8594f71cf44ba79e4f28391cc32
+      internalID: -1704625374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_80
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3fd15efe364ed4cbb133b59d74120c
+      internalID: -1547407291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_81
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8c910d5d679e54e86cd85c7a114741
+      internalID: -1944247445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fd86a71f5d96c48a5a612f397a5ed9
+      internalID: 235494802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_83
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3df78daf39057e4f9b49d3686443878
+      internalID: 707518651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_84
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f657aefeb5579a64c82ea6c2742d67f3
+      internalID: 1245419459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_85
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a13b963ae4e9f4a94486f51e1a439d
+      internalID: 917243484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9b2b9e1443b7444af164fa121f3c62
+      internalID: 1149058043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_87
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbb6f7819f1d5841a5dd342dd730cac
+      internalID: 1510515779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a12e729fd55ac54d8ee18c95283e071
+      internalID: -430498027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3343ce166f7765548ae04477bbe1dd10
+      internalID: 312471482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_90
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df3b333d15c5854180b9f3b4072a66a
+      internalID: 834418935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_91
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8006699267bbc4bae9d50852471083
+      internalID: 1964119352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_92
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470bd598165ea4f4aab45d2f1801d460
+      internalID: -1104148498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aa4d92601949242af4d1f6824096dc
+      internalID: 2050268081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_94
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f02735551e3647aca51636eb6db0f
+      internalID: 778442424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_95
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784fae18fc8d28c468909567c0ac9301
+      internalID: -892832746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_96
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 64
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aae57884659684593fc1def9092c17
+      internalID: -2090152779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_97
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c59e09098b47c74daed8b14b0ad4330
+      internalID: -1821781594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a56ac298b567e04d867ba1d2066dcb2
+      internalID: -2023375447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_99
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca5041113d98714da10a0b44d566449
+      internalID: 905204494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a9cb8e9a1ea8f4396560348d4f0982
+      internalID: -1008401646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_101
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c744afe25b7b4f7478cf6634a8b979ac
+      internalID: 2069452720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea4b4d4119348f489a5b3a26f503471
+      internalID: -171662158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe73b332d9932f94fb56055a9bd29f46
+      internalID: 2115045372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_104
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707f7af0fb6d67141805d8f641d0a2ef
+      internalID: -584836091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_105
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71192d1da8ddc445b06f6f09390c85b
+      internalID: 699770945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1381690b17fc848b9687a479b8daeb
+      internalID: -935263926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_107
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d67027908575e4889956d9f0258a78
+      internalID: -1966925848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_108
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b15f50976268d4b84a8aa9d969a466
+      internalID: 795799223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_109
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7684ad1d5ee4d3d4cb85ee136ffb7f89
+      internalID: -548684604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dabbba3acd44740aee85a1230581e1
+      internalID: 630486024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_111
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c82b8cd169eb654aaf5634daa8b2df9
+      internalID: -1189255884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_112
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b50710e68bb2c144ab03f357d7af340
+      internalID: 675587397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_113
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 40
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff488dbc4f767b42bf2e87004d35491
+      internalID: 1408358822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_114
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c537edfaa81d4404b86360925ae11bd6
+      internalID: -808748540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_115
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2f665774854144bb827a6e4af5e5cf
+      internalID: -307814982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_116
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44d16fac17bc04478d8feb921a7c3e3
+      internalID: -1797762196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_117
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556b4682d3f4138449f0f2b9ddb212b7
+      internalID: 1593800341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_118
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b2be08e28e64440901c78e5b134b70
+      internalID: -725994524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postes-Quebrados-Slimes_119
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 28
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c935db4487eff241b9cd5a3c88697bd
+      internalID: -940753348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Postes-Quebrados-Slimes_0: -47823745
+      Postes-Quebrados-Slimes_1: 474738918
+      Postes-Quebrados-Slimes_10: -89127048
+      Postes-Quebrados-Slimes_100: -1008401646
+      Postes-Quebrados-Slimes_101: 2069452720
+      Postes-Quebrados-Slimes_102: -171662158
+      Postes-Quebrados-Slimes_103: 2115045372
+      Postes-Quebrados-Slimes_104: -584836091
+      Postes-Quebrados-Slimes_105: 699770945
+      Postes-Quebrados-Slimes_106: -935263926
+      Postes-Quebrados-Slimes_107: -1966925848
+      Postes-Quebrados-Slimes_108: 795799223
+      Postes-Quebrados-Slimes_109: -548684604
+      Postes-Quebrados-Slimes_11: -478303364
+      Postes-Quebrados-Slimes_110: 630486024
+      Postes-Quebrados-Slimes_111: -1189255884
+      Postes-Quebrados-Slimes_112: 675587397
+      Postes-Quebrados-Slimes_113: 1408358822
+      Postes-Quebrados-Slimes_114: -808748540
+      Postes-Quebrados-Slimes_115: -307814982
+      Postes-Quebrados-Slimes_116: -1797762196
+      Postes-Quebrados-Slimes_117: 1593800341
+      Postes-Quebrados-Slimes_118: -725994524
+      Postes-Quebrados-Slimes_119: -940753348
+      Postes-Quebrados-Slimes_12: 312162919
+      Postes-Quebrados-Slimes_13: 258950287
+      Postes-Quebrados-Slimes_14: -1384134730
+      Postes-Quebrados-Slimes_15: -503015163
+      Postes-Quebrados-Slimes_16: -148535379
+      Postes-Quebrados-Slimes_17: 1542483566
+      Postes-Quebrados-Slimes_18: -798888810
+      Postes-Quebrados-Slimes_19: 77709294
+      Postes-Quebrados-Slimes_2: -1790069319
+      Postes-Quebrados-Slimes_20: -73503320
+      Postes-Quebrados-Slimes_21: -983085035
+      Postes-Quebrados-Slimes_22: 1390741264
+      Postes-Quebrados-Slimes_23: -1115546501
+      Postes-Quebrados-Slimes_24: -1765738511
+      Postes-Quebrados-Slimes_25: 948377107
+      Postes-Quebrados-Slimes_26: 2107415989
+      Postes-Quebrados-Slimes_27: 1261066057
+      Postes-Quebrados-Slimes_28: -202560150
+      Postes-Quebrados-Slimes_29: -1650676667
+      Postes-Quebrados-Slimes_3: 921866559
+      Postes-Quebrados-Slimes_30: -1973298883
+      Postes-Quebrados-Slimes_31: -1945949387
+      Postes-Quebrados-Slimes_32: -1422006023
+      Postes-Quebrados-Slimes_33: -777858277
+      Postes-Quebrados-Slimes_34: 1479467115
+      Postes-Quebrados-Slimes_35: 222768609
+      Postes-Quebrados-Slimes_36: 1819908810
+      Postes-Quebrados-Slimes_37: -209750014
+      Postes-Quebrados-Slimes_38: -2068976146
+      Postes-Quebrados-Slimes_39: 45813350
+      Postes-Quebrados-Slimes_4: -1870425255
+      Postes-Quebrados-Slimes_40: -1203535218
+      Postes-Quebrados-Slimes_41: 909956819
+      Postes-Quebrados-Slimes_42: 1649902864
+      Postes-Quebrados-Slimes_43: -561649504
+      Postes-Quebrados-Slimes_44: 798994576
+      Postes-Quebrados-Slimes_45: 349462878
+      Postes-Quebrados-Slimes_46: -588701550
+      Postes-Quebrados-Slimes_47: -31776270
+      Postes-Quebrados-Slimes_48: 670002051
+      Postes-Quebrados-Slimes_49: 741118553
+      Postes-Quebrados-Slimes_5: -1674024204
+      Postes-Quebrados-Slimes_50: 334036315
+      Postes-Quebrados-Slimes_51: 1071198254
+      Postes-Quebrados-Slimes_52: -1109818702
+      Postes-Quebrados-Slimes_53: -637197045
+      Postes-Quebrados-Slimes_54: -1295192768
+      Postes-Quebrados-Slimes_55: -1009952786
+      Postes-Quebrados-Slimes_56: 815795681
+      Postes-Quebrados-Slimes_57: 1171643187
+      Postes-Quebrados-Slimes_58: 216520832
+      Postes-Quebrados-Slimes_59: 1933192504
+      Postes-Quebrados-Slimes_6: -249533930
+      Postes-Quebrados-Slimes_60: 1015009165
+      Postes-Quebrados-Slimes_61: 290581409
+      Postes-Quebrados-Slimes_62: -1673117194
+      Postes-Quebrados-Slimes_63: 2131127268
+      Postes-Quebrados-Slimes_64: 1660591680
+      Postes-Quebrados-Slimes_65: -1943408555
+      Postes-Quebrados-Slimes_66: 1316460966
+      Postes-Quebrados-Slimes_67: 1381326252
+      Postes-Quebrados-Slimes_68: 1305443452
+      Postes-Quebrados-Slimes_69: 1460613702
+      Postes-Quebrados-Slimes_7: 3686209
+      Postes-Quebrados-Slimes_70: -764668940
+      Postes-Quebrados-Slimes_71: 2085970115
+      Postes-Quebrados-Slimes_72: 1915044045
+      Postes-Quebrados-Slimes_73: 1639234329
+      Postes-Quebrados-Slimes_74: 1001265318
+      Postes-Quebrados-Slimes_75: -2084143448
+      Postes-Quebrados-Slimes_76: -1220671333
+      Postes-Quebrados-Slimes_77: 1014323918
+      Postes-Quebrados-Slimes_78: -1650212185
+      Postes-Quebrados-Slimes_79: -1704625374
+      Postes-Quebrados-Slimes_8: 1365533022
+      Postes-Quebrados-Slimes_80: -1547407291
+      Postes-Quebrados-Slimes_81: -1944247445
+      Postes-Quebrados-Slimes_82: 235494802
+      Postes-Quebrados-Slimes_83: 707518651
+      Postes-Quebrados-Slimes_84: 1245419459
+      Postes-Quebrados-Slimes_85: 917243484
+      Postes-Quebrados-Slimes_86: 1149058043
+      Postes-Quebrados-Slimes_87: 1510515779
+      Postes-Quebrados-Slimes_88: -430498027
+      Postes-Quebrados-Slimes_89: 312471482
+      Postes-Quebrados-Slimes_9: -37164253
+      Postes-Quebrados-Slimes_90: 834418935
+      Postes-Quebrados-Slimes_91: 1964119352
+      Postes-Quebrados-Slimes_92: -1104148498
+      Postes-Quebrados-Slimes_93: 2050268081
+      Postes-Quebrados-Slimes_94: 778442424
+      Postes-Quebrados-Slimes_95: -892832746
+      Postes-Quebrados-Slimes_96: -2090152779
+      Postes-Quebrados-Slimes_97: -1821781594
+      Postes-Quebrados-Slimes_98: -2023375447
+      Postes-Quebrados-Slimes_99: 905204494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
