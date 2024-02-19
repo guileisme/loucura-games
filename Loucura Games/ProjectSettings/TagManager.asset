@@ -16,16 +16,16 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - 
   - Ground
   - 
   - 
   - 
   - 
   - 
-  - 
-  - 
+  - Player
+  - PlayerHit
+  - Enemy
+  - EnemyHit
   - 
   - 
   - 
