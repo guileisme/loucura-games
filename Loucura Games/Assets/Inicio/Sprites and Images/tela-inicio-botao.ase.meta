@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63232a59d44942b43bf4566be465c3ea
+guid: 42741d9170c2a144c8bb9735094bb518
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: quit-pressed
+  - name: tela-inicio-botao
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -1.6470588}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 222
-      height: 96
-    spriteID: a5b8a8ce387956c49956cd80b7885650
+      width: 228
+      height: 17
+    spriteID: eab253afcde0c7e4ab0ff717906f1822
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 940172394
-    name: quit-pressed
+    guid: -337450854
+    name: tela-inicio-botao
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: quit-pressed
+    - name: tela-inicio-botao
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 222
-        height: 96
-      spriteId: a5b8a8ce387956c49956cd80b7885650
+        x: 46
+        y: 28
+        width: 228
+        height: 17
+      spriteId: eab253afcde0c7e4ab0ff717906f1822
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 222, y: 96}
+  canvasSize: {x: 320, y: 180}
