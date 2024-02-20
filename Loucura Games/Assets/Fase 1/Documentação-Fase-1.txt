@@ -1,0 +1,66 @@
+Design-Pattern
+
+nomeando arquivos
+"Fase 1" == Fase-1
+"separado por - e Iniciais de palavras com Letra-Maiuscula,
+ sem acentos,pontuações ou simbolos"
+exemplo:
+Documentacao-Fase-1
+
+nomeando variáveis
+"variavel antonio lucas" == var antonioLucas
+"juntas e com letra maiuscula na inicial da segunda palavra sem 
+acentuação"
+exemplo:
+var antonioAdriano
+
+Glossário
+1.Tile(Um bloco do mapa ou de um pedaço de alguma imagem/objeto)
+2.TileSet(Um conjunto de blocos para a montagem do TileMap,
+se encontra ainda como imagem salvo em qualquer lugar)
+3.TileMap( Conjunto de blocos para utilizar já dentro da unit, local
+onde a gente monta os sprites)
+4.TilePallet(Paleta de tiles para desenhar o cenário dentro da Unity)
+
+Configurações de exportação TileSet para TileMap:
+"Adição das imagens/pixelArt na unity e configuração para usar o 
+recorte de blocos caso seja um TileSet"
+1.Compression:none 
+2.Filter Mode: Point(no filter)
+3.Pixels per Unit: (16) (tamanho de cada Tile)
+4.Sprit Mode
+-Multiple para um TileMap com vários blocos a serem recortados
+-Single para um bloco (Tile) apenas
+
+
+
+Esboço do mapa
+1.Mr.Mix (início do jogo)
+2.Chopp(algum evento)
+3.Colegial(Weslane fight)
+
+
+Colisores para TileMaps
+
+TileMap Collider 2d
+Serve para adicionar colisão em todos os tiles(blocos) daquele TileMap, ou seja,
+adiciona colisores para todos as imagens que estiverem naquele mapa específico de uma layer(camada) específica;
+
+Composite Collider 2d
+Adiciona uma composição dos colisores para blocos que estejam em um tileMap que tenha TileMap Collider 2d 
+fazendo com que seus colisores se mesclem em um só, evitando bugs de movimentação;
+
+Rigid Body: Static 
+TileMap(Used By composite): True
+
+
+
+
+Ideias
+- poste quebrando animação
+- slime mexendo na construção mesclado igual gears of war
+- craft a partir de peças dos postes e escrombos
+- Construir uma Ponte a partir desses escrombos em uma mesa de craft
+(essa ponte é um pedaço da rua quebrado, que só libera depois de matar a Weslane)
+- adicionar carros quebrados e destruídos
+- npc's correndo dos bichos (direita para esquerda)
