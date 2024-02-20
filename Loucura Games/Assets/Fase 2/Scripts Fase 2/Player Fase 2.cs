@@ -21,6 +21,7 @@ public class PlayerFase2 : MonoBehaviour
     private bool facingRight = true;
     private bool jump = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -127,5 +128,9 @@ public class PlayerFase2 : MonoBehaviour
             anim.SetTrigger("HitDamage");
             FindObjectOfType<UIManager>().UpdateHealth(currentHealth);
         }
+    }
+    void Death()
+    {
+        
     }
 }
