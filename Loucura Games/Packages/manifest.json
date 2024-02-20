@@ -1,6 +1,10 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "com.unity.2d.aseprite": "1.1.1",
+=======
+    "com.unity.ai.navigation": "1.1.5",
+>>>>>>> c238dc63b3bf21fc1714bf853e9121adea9fb5b4
     "com.unity.cinemachine": "2.9.7",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.2d": "2.0.0",
