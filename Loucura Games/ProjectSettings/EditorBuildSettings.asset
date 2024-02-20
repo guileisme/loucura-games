@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Init.unity
+    path: Assets/Cena-Teste/Scenes/Init.unity
     guid: 8a0e97710776ea744a9fd44ff8063c46
   - enabled: 1
-    path: Assets/Scenes/MenuPersonagens.unity
+    path: Assets/Cena-Teste/Scenes/MenuPersonagens.unity
     guid: ea04df9ea21edd946a07119b77410f44
   - enabled: 1
-    path: Assets/Scenes/BasicScene.unity
+    path: Assets/Cena-Teste/Scenes/BasicScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Inicio/Init.unity
+    guid: c222d9d33e1d2a64ebe48241f9de9a1c
+  - enabled: 1
+    path: Assets/Inicio/EscolherPersonagem.unity
+    guid: 70154313e780d89459f2165e7759c4b2
   m_configObjects: {}

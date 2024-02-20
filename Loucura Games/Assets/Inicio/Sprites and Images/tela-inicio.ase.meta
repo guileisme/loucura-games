@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63232a59d44942b43bf4566be465c3ea
+guid: 2e128a5e69d0e2d4488d1b908b6c1b0e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: quit-pressed
+  - name: tela-inicio
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 222
-      height: 96
-    spriteID: a5b8a8ce387956c49956cd80b7885650
+      width: 320
+      height: 180
+    spriteID: 106a479adc4f5584abaf05660aef86b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 940172394
-    name: quit-pressed
+    guid: -889872910
+    name: tela-inicio
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: quit-pressed
+    - name: tela-inicio
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 222
-        height: 96
-      spriteId: a5b8a8ce387956c49956cd80b7885650
+        width: 320
+        height: 180
+      spriteId: 106a479adc4f5584abaf05660aef86b3
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 222, y: 96}
+  canvasSize: {x: 320, y: 180}
