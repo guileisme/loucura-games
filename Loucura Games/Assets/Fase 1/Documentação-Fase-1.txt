@@ -39,10 +39,6 @@ Esboço do mapa
 2.Chopp(algum evento)
 3.Colegial(Weslane fight)
 
-TileMaps Layers
-Ground -2
-Street -1
-Props  0
 
 Colisores para TileMaps
 
@@ -56,3 +52,15 @@ fazendo com que seus colisores se mesclem em um só, evitando bugs de movimenta�
 
 Rigid Body: Static 
 TileMap(Used By composite): True
+
+
+
+
+Ideias
+- poste quebrando animação
+- slime mexendo na construção mesclado igual gears of war
+- craft a partir de peças dos postes e escrombos
+- Construir uma Ponte a partir desses escrombos em uma mesa de craft
+(essa ponte é um pedaço da rua quebrado, que só libera depois de matar a Weslane)
+- adicionar carros quebrados e destruídos
+- npc's correndo dos bichos (direita para esquerda)
