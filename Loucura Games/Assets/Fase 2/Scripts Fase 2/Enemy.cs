@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public string enemyName;
+    public Sprite enemyImage;
     public float maxSpeed;
     public float minHeight;
     public float maxHeight;
@@ -110,6 +112,7 @@ public class Enemy : MonoBehaviour
             damaged = true;
             currentHealth -= damage;
             anim.SetTrigger("HitDamage");
+            FindObjectOfType<UIManager>().UpdateEnemyUI(maxHealth, currentHealth, enemyName, enemyImage);
             if(currentHealth <= 0)
             {
                 isDead = true;

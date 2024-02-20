@@ -23,9 +23,16 @@ public class Attack : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Enemy enemy = other.GetComponent<Enemy>();
+        PlayerFase2 player = other.GetComponent<PlayerFase2>();
+
         if(enemy != null)
         {
             enemy.TookDamage(damage);
+        }
+
+        if (player != null)
+        {
+            player.TookDamage(damage);
         }
     }
 }
