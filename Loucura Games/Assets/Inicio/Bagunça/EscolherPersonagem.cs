@@ -21,7 +21,6 @@ public class EscolherPersonagem : MonoBehaviour
         {
             selectPersonagem1 = true;
             selectPersonagem2 = false;
-
             //if (Input.GetKeyDown("Enter"))
             //{
             //    Personagem1 = true;
@@ -33,7 +32,6 @@ public class EscolherPersonagem : MonoBehaviour
         {
             selectPersonagem2 = true;
             selectPersonagem1 = false;
-
             //if (Input.GetKeyDown("Enter"))
             //{
             //    Personagem1 = false;
@@ -43,14 +41,24 @@ public class EscolherPersonagem : MonoBehaviour
 
         if (selectPersonagem1)
         {
-            select1.GetComponent<Image>().color = new Color32(232, 220, 30, 100);
+            select1.GetComponent<Image>().color = new Color32(234, 140, 15, 100);
             select2.GetComponent<Image>().color = new Color32(255, 255, 255, 100);
+            if (Input.GetKeyDown("return"))
+            {
+                SceneManager.LoadScene("Cutscene");
+            }
         }
 
         if (selectPersonagem2)
         {
-            select2.GetComponent<Image>().color = new Color32(232, 220, 30, 100);
+            select2.GetComponent<Image>().color = new Color32(234, 140, 15, 100);
             select1.GetComponent<Image>().color = new Color32(255, 255, 255, 100);
+            if (Input.GetKeyDown("return"))
+            {
+                SceneManager.LoadScene("Cutscene");
+            }
         }
+
+
     }
 }
