@@ -34,7 +34,16 @@ public class PlayerAnimations : MonoBehaviour
         if (playerDev._direction.sqrMagnitude > 0  ) //se for maior que 0, o player está se movendo, 
         //o sqrMagnitude limita entre 0 a 1, se for maior q zero significa que ele está se movendo
         {
-            animator.SetInteger("transition",1);
+            if(playerDev._isRolling) 
+            //colocado neste local pois sómente será ativado caso o player esteja se movimentando
+            {
+                animator.SetTrigger("rolltrigger");
+            }
+            else
+            {
+                animator.SetInteger("transition",1); //seta a animação de andar
+            }
+            
         }
         else 
         {
@@ -62,8 +71,6 @@ public class PlayerAnimations : MonoBehaviour
         }
         
     }
-
-
 
 
     #endregion
