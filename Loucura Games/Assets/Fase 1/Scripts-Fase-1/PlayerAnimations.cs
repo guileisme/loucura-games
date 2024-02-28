@@ -36,7 +36,7 @@ public class PlayerAnimations : MonoBehaviour
         {
             if(playerDev._isRolling) 
             //colocado neste local pois sómente será ativado caso o player esteja se movimentando
-            {
+            { 
                 animator.SetTrigger("rolltrigger");
             }
             else

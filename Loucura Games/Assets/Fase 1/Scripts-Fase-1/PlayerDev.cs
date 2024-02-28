@@ -15,7 +15,7 @@ public class PlayerDev : MonoBehaviour
     private Vector2 direction; //direção do movimento
     private bool isRunning; //verifica se o player está correndo para usar no PlayerAnimations
     private bool isRolling;//verifica se o player está rolando para usar no PlayerAnimations
-
+   
 
 
 // Propriedades
@@ -115,25 +115,26 @@ public class PlayerDev : MonoBehaviour
         }
 
 
+       
+
         void onRoll()
         {
-            if(Input.GetMouseButtonDown(1)) //se apertar o botão de rolar
+            if (Input.GetMouseButtonDown(1))
+             // se apertar o botão de rolar e hasn't rolled yet
             {
                 isRolling = true;
-                velocidade = velocidadeCorrida +2;
+                velocidade = velocidadeCorrida + 2;
+               
             }
-            //para o isRolling, para que o player não fique rolando infinitamente
-            //uma vez que se true ele vai para o PlayerAnimations e lá ele altera o trigger para chamar a ativação
-            // que por sua vez no unity possue um exit time, e logo após o exit time ele volta para o idle
-            // ou seja só é ativado com o trigger e desativado com o exit time
-            
-            if(Input.GetMouseButtonUp(1)) //se soltar o botão de rolar 
-
+            else if (Input.GetMouseButtonUp(1)) 
+            // se soltar o botão de rolar 
             {
                 isRolling = false;
                 velocidade = velocidadeInicial;
+               
             }
         }
+
 
 
 
