@@ -125,12 +125,50 @@ public class PlayerFase2 : MonoBehaviour
         if (!isDead)
         {
             currentHealth -= damage;
-            anim.SetTrigger("HitDamage");
             FindObjectOfType<UIManager>().UpdateHealth(currentHealth);
+            if(currentHealth<= 0)
+            {
+                isDead = true;
+                anim.SetBool("Dead", isDead);
+                FindObjectOfType<GameManager>().lives--;
+                FindObjectOfType<UIManager>().UpdateLives();
+                if (facingRight)
+                {
+                    rb.AddForce(new Vector3(-3, 5, 0), ForceMode.Impulse);
+                }
+                else
+                {
+                    rb.AddForce(new Vector3(3, 5, 0), ForceMode.Impulse);
+                }
+                Invoke("PlayerRespawn",2f);
+            }
         }
     }
     void Death()
     {
         
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("HealthItem"))
+        {
+            if (Input.GetButtonDown("Interaction"))
+            {
+                Destroy(other.gameObject);
+                currentHealth = maxHealth;
+                FindObjectOfType<UIManager>().UpdateHealth(currentHealth);
+            }
+        }
+    }
+
+    void PlayerRespawn()
+    {
+        isDead = false;
+        currentHealth = maxHealth;
+        FindObjectOfType<UIManager>().UpdateHealth(currentHealth);
+        anim.Rebind();
+        float minWidth = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 10)).x;
+        transform.position = new Vector3(minWidth, 10, -4);
     }
 }
