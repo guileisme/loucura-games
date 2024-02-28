@@ -5,79 +5,94 @@ using UnityEngine;
 public class PlayerDev : MonoBehaviour
 {
 
-    [SerializeField] private float velocidade; // O uso do serialized permite que a variável seja acessada no inspector da unity
-    [SerializeField] private float velocidadeCorrida;
-    private float velocidadeInicial;
+// Variáveis e atributos
 
+    // O uso do serialized permite que a variável seja acessada no inspector da unity
+    [SerializeField] private float velocidade; //velocidade do player
+    [SerializeField] private float velocidadeCorrida; //velocidade de corrida do player
+    private float velocidadeInicial; //velocidade inicial (armazenamento de info)
     private Rigidbody2D rig; //rig = corpo rigido do player 
     private Vector2 direction; //direção do movimento
-    
-    public Vector2 _direction 
-    {   //propriedade para acessar a direção do movimento, apesar de ser um vetor, é uma propriedade
-        // por ser uma propriedade ele não aparece no console da unity, mas pode ser acessado por outros scripts       
-        //  how to use the getter and setter methods
+    private bool isRunning; //verifica se o player está correndo para usar no PlayerAnimations
+    private bool isRolling;//verifica se o player está rolando para usar no PlayerAnimations
+   
 
-            get => direction;
-            set => direction = value; 
+
+// Propriedades
+
+    //propriedade para acessar em outras classes
+    // por ser uma propriedade ele não aparece no console da unity, mas pode ser acessado por outros scripts       
+
+    public bool _isRolling 
+    { 
+        get => isRolling;
+        set => isRolling = value;
+    }
+
+    public Vector2 _direction 
+    {   
+        get => direction;
+        set => direction = value; 
     }
     
-    
-    private bool isRunning; //verifica se o player está correndo
-
     public bool _isRunning 
-    {   // por ser uma propriedade ele não aparece no console da unity, mas pode ser acessado por outros scripts
+    { 
         get => isRunning;
         set => isRunning = value;
     }
 
-    
 
-    // Start is called before the first frame update
+//Metodo Start (called before the first frame update)
+    
     void Start()
     {
         rig = GetComponent<Rigidbody2D>(); //pega o corpo rigido do player
         velocidadeInicial = velocidade; //armazena a velocidade inicial do player
     }
 
+//Metodo Update (called once per frame)
     void Update()
-    {   // Update is called once per frame
+    {
 
         onInput(); //chama a função de input
         onRun(); //chama a função de correr
+        onRoll();
+        
 
     }
+//Metodo FixedUpdate (called once per frame; coisas relacionadas a física utiliza o fixedupdate para ser mais preciso)
+    private void FixedUpdate() 
+    {
 
-    private void FixedUpdate()  //chamado a cada frame, mas é mais preciso que o update porque é chamado a cada frame de física
-    {                           //coisas relacionadas a física utiliza o fixedupdate
+        onMove();               
+    }
     
-        onMove();               //chama a função de movimento
-
-    }
 
 
 
     #region Movement
 
-        void onMove()
+        void onMove() 
         {
             //movimenta o player
             //move o corpo a uma direção, com uma velocidade e um tempo
             //pega a posição dele e soma a um vetor de direção
-            rig.MovePosition(rig.position + _direction * velocidade * Time.fixedDeltaTime);
+            rig.MovePosition(rig.position + direction * velocidade * Time.fixedDeltaTime);
         }
+
 
         void onRun()
         {
             if(Input.GetKeyDown(KeyCode.LeftShift)) //se apertar o botão de correr
             {
                 velocidade = velocidadeCorrida; //a velocidade do player é alterada para a velocidade de corrida
-                isRunning = true; //o player está correndo
+                isRunning = true; //o player está correndo para PlayerAnimator
             }
 
              if(Input.GetKeyUp(KeyCode.LeftShift)) //se soltar o botão de correr
             {
                 velocidade = velocidadeInicial; //a velocidade do player é alterada para a velocidade inicial
-                isRunning = false; //o player não está correndo
+                isRunning = false; //o player não está correndo para o PlayerAnimator
             }
 
             if(Input.GetKeyDown(KeyCode.L)){
@@ -90,13 +105,38 @@ public class PlayerDev : MonoBehaviour
                 }     
 
         }
+        
 
+        //função de input para movimento captar as teclas apertadas
         void onInput()
         {   
                 //armazena a direção do movimento ao apertar os botões direcionais
-                _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-        
+                direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;        
         }
+
+
+       
+
+        void onRoll()
+        {
+            if (Input.GetMouseButtonDown(1))
+             // se apertar o botão de rolar e hasn't rolled yet
+            {
+                isRolling = true;
+                velocidade = velocidadeCorrida + 2;
+               
+            }
+            else if (Input.GetMouseButtonUp(1)) 
+            // se soltar o botão de rolar 
+            {
+                isRolling = false;
+                velocidade = velocidadeInicial;
+               
+            }
+        }
+
+
+
 
     #endregion 
 
