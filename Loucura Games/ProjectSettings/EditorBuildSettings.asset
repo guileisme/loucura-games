@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Inicio/Cutscene.unity
     guid: f0b0b61dd35b3cd4691284d29b397e2a
+  - enabled: 1
+    path: Assets/Fase 2/SubUrban Stage.unity
+    guid: c04eb3b4b74fefc4a8fc469c906aba7d
+  - enabled: 1
+    path: Assets/Fase 2/CutsceneStage2.unity
+    guid: 503096aa94b5b144892021c4fcfec6af
   m_configObjects: {}

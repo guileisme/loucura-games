@@ -9,6 +9,7 @@ TagManager:
   - BonecoTag
   - swordtag2
   - swordtag3
+  - HealthItem
   layers:
   - Default
   - TransparentFX
