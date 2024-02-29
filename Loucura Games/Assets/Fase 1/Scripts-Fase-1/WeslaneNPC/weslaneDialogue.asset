@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8e7611f108d1f43be8ffacb851f63f, type: 3}
+  m_Name: weslaneDialogue
+  m_EditorClassIdentifier: 
+  actor: {fileID: 7021235458129086630, guid: 1509fe07f91baf74fa7a8fd64954d546, type: 3}
+  ActorName: Weslane
+  ObjetoFalador: {fileID: 0}
+  "Senten\xE7a": 
+  "ListaDeSenten\xE7as":
+  - actorName: Weslane
+    profileImage: {fileID: 125508133, guid: d29fb0ba1a238c843b88cacbb41f26b4, type: 3}
+    sentence:
+      portuguese: O... Oiiiiii, nossa eu levei um big susto
+      english: 
+      spanish: 
+  - actorName: Weslane
+    profileImage: {fileID: 153879640, guid: d29fb0ba1a238c843b88cacbb41f26b4, type: 3}
+    sentence:
+      portuguese: "Que bom que \xE9 apenas voc\xEA..."
+      english: 
+      spanish: 
+  - actorName: Weslane
+    profileImage: {fileID: 674616614, guid: d29fb0ba1a238c843b88cacbb41f26b4, type: 3}
+    sentence:
+      portuguese: "Eu escutei e vi coisas que s\xE3o inexplic\xE1veis, pelo menos
+        estou mais tranquila agora que n\xE3o estou sozinha."
+      english: 
+      spanish: 
+  - actorName: Weslane
+    profileImage: {fileID: 674616614, guid: d29fb0ba1a238c843b88cacbb41f26b4, type: 3}
+    sentence:
+      portuguese: "Quando cheguei vi um slime vomitando esse equipamento enorme,
+        urgh, s\xF3 de lembrar me deixa enjoada..."
+      english: 
+      spanish: 
+  - actorName: Weslane
+    profileImage: {fileID: 153879640, guid: d29fb0ba1a238c843b88cacbb41f26b4, type: 3}
+    sentence:
+      portuguese: "Depois disso ele entrou nos esgotos, eu pensei que poderia pelo
+        menos tentar ver o que esse equipamento \xE9..."
+      english: 
+      spanish: 
+  - actorName: Narrador
+    profileImage: {fileID: 0}
+    sentence:
+      portuguese: "Sons de aviso e sinais de emerg\xEAncia surgem do maquin\xE1rio
+        estranho"
+      english: 
+      spanish: 
+  - actorName: Weslane
+    profileImage: {fileID: 125508133, guid: d29fb0ba1a238c843b88cacbb41f26b4, type: 3}
+    sentence:
+      portuguese: "Ohh shit! O que ser\xE1 isso, eu consigo sentir o fedor daquele
+        slime de novo, preparesse ele est\xE1 vindo!"
+      english: 
+      spanish: 
