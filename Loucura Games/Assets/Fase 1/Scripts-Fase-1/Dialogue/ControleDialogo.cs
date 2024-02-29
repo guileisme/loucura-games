@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting.FullSerializer.Internal;
 
 public class ControleDialogo : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class ControleDialogo : MonoBehaviour
     private int index; // quantidade de sentenças index das sentenças
     private string[] sentences; // Array de sentenças
     public static ControleDialogo instance; // Instância do diálogo
+    private string[] CurrentActorName; // Array de nomes dos atores
+    private Sprite[] CurrentActorProfile; // Array de perfis dos atores
     
 
 
@@ -62,11 +65,14 @@ public class ControleDialogo : MonoBehaviour
             {
                 index++;
                 speechText.text = "";
+                actorNameText.text = CurrentActorName[index];
+                profileSprite.sprite = CurrentActorProfile[index]; 
                 StartCoroutine(TypeSentence());
             }
             else
             {
                 speechText.text = "";
+                actorNameText.text = "";
                 index = 0;
                 dialogueBoxObj.SetActive(false);
                 this.sentences = null;
@@ -80,17 +86,22 @@ public class ControleDialogo : MonoBehaviour
 
     //metodo para falar
 
-    public void falar(string[] txt)
+    public void falar(string[] txt, string[] actorNames, Sprite[] actorProfile)
     {
         //se o npc estiver falando não deve conseguir chamar o speech novamente
+        
         if(!isShowing){
+
             //ativa a janela do diálogo
             dialogueBoxObj.SetActive(true);
             //ativa a variável de controle para impedir que o jogador chame o diálogo novamente
 
             //pega a fala passada como parametro e atrela a variável sentences que é um array
             sentences = txt;
-
+            CurrentActorName = actorNames;
+            CurrentActorProfile = actorProfile;
+            actorNameText.text = CurrentActorName[index];
+            profileSprite.sprite = CurrentActorProfile[index]; 
             //chama o método para escrever a fala
             StartCoroutine(TypeSentence());
 
