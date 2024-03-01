@@ -36,19 +36,23 @@ public class Selecao_perso : MonoBehaviour
         if (personagem == 1)
         {
             axoloteImage.color = cor;
-            cachorroImage.color = Color.white;
+            cachorroImage.color = Color.yellow;
             cachorroanim.SetBool("Press", true);
         }
         else if (personagem == 2)
         {
             cachorroImage.color = cor;
-            axoloteImage.color = Color.white;
+            axoloteImage.color = Color.yellow;
             cachorroanim.SetBool("Press", false);
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && personagem == 1)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }        
+        else if (Input.GetKeyDown(KeyCode.Space) && personagem == 2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
     }
     void PlaySound()
     {

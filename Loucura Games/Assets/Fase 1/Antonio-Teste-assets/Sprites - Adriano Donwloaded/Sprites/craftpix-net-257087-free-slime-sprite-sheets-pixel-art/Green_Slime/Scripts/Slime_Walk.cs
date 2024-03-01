@@ -8,11 +8,11 @@ public class Slime_Walk : MonoBehaviour
 {   
     private Animator MobAnim;
     [SerializeField] private NavMeshAgent agent;
-    private PlayerController player;
+    private PlayerDev player;
 
     void Start()
     {
-        player = FindObjectOfType<PlayerController>();
+        player = FindObjectOfType<PlayerDev>();
         MobAnim = GetComponent<Animator>(); // Initialize MobAnim
         agent.updateRotation = false;
         agent.updateUpAxis = false;
