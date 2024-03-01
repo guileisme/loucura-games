@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 5604313630762981918}
   - component: {fileID: 8649403013812939527}
   - component: {fileID: 1481809449817213041}
-  - component: {fileID: 5173408952069010597}
   m_Layer: 0
   m_Name: Slime_Boss
   m_TagString: Untagged
@@ -218,26 +217,3 @@ NavMeshAgent:
   m_BaseOffset: 0.64
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &5173408952069010597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8335159401630520723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e59df23c26a34f46bc7a7d2922a1e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyName: 
-  enemyImage: {fileID: 0}
-  maxSpeed: 3
-  minHeight: -9
-  maxHeight: -4
-  damageTime: 0.5
-  maxHealth: 20
-  attackRate: 2
-  boomerang: {fileID: 0}
-  minBoomerangTime: 0
-  maxBoomerangTime: 0
