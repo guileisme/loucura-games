@@ -21,11 +21,14 @@ EditorBuildSettings:
     path: Assets/Inicio/EscolherPersonagem.unity
     guid: 70154313e780d89459f2165e7759c4b2
   - enabled: 1
+    path: Assets/Inicio/Cutscene.unity
+    guid: f0b0b61dd35b3cd4691284d29b397e2a
+  - enabled: 1
     path: Assets/Fase 1/Scenes-Fase-1/Fase1.unity
     guid: 1f09f09e0052a5243809021cddbd5cd6
   - enabled: 1
-    path: Assets/Inicio/Cutscene.unity
-    guid: f0b0b61dd35b3cd4691284d29b397e2a
+    path: Assets/Fase 1/Scenes-Fase-1/MenuPersonagens.unity
+    guid: 2a42d55ec9c09b34bb92ab1821350154
   - enabled: 1
     path: Assets/Fase 2/SubUrbanStage.unity
     guid: c04eb3b4b74fefc4a8fc469c906aba7d
