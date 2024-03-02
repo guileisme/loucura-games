@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5604313630762981918}
   - component: {fileID: 8649403013812939527}
   - component: {fileID: 1481809449817213041}
+  - component: {fileID: -5664868612948593276}
   m_Layer: 0
   m_Name: Slime_Boss
   m_TagString: Untagged
@@ -122,9 +123,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 20000
-  m_LinearDrag: 20000
-  m_AngularDrag: 2000
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -166,7 +167,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.02573356, y: -0.47933263}
@@ -194,7 +195,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5cd1c6f49d06a4abc9293e23eece88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 1481809449817213041}
+  speed: 234.05
+  player: {fileID: 6866925369009234892, guid: 3616c0e849b4d124e948a827683f5060, type: 3}
+  minDistanceXToTurn: -138.22
+  minDistanceYToTurn: -141.4
+  distanceToStop: -0.1
 --- !u!195 &1481809449817213041
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -217,3 +222,15 @@ NavMeshAgent:
   m_BaseOffset: 0.64
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-5664868612948593276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335159401630520723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cdab7f62e6b1c4fab7622f209153f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
